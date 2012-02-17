@@ -4,5 +4,4 @@ import com.trackstudio.external.TaskTrigger;
 
 public class ChooseParticipants extends
 		scripts.after_create_task.ChooseParticipants implements TaskTrigger {
-
 }

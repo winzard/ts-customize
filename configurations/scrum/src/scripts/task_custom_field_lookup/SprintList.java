@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import scripts.CommonScrum;
 
 /**
- * Выводит список спринтов для выбора
+ * Р’С‹РІРѕРґРёС‚ СЃРїРёСЃРѕРє СЃРїСЂРёРЅС‚РѕРІ РґР»СЏ РІС‹Р±РѕСЂР°
  */
 public class SprintList extends CommonScrum implements TaskUDFLookupScript{
 

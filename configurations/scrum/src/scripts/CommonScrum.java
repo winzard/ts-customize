@@ -1,8 +1,5 @@
 package scripts;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 import java.util.Properties;
 import java.io.FileReader;
 import java.io.IOException;
@@ -11,7 +8,7 @@ import java.io.IOException;
  * Общий класс, в котором определяются константы. Константы могут также читаться из файла scrum.properties. Его нужно разместить в папке с TrackStudio
  */
 public class CommonScrum {
-    public static Log log = LogFactory.getLog(CommonScrum.class);
+    
     private static Properties properties=null;
 
     {
