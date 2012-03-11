@@ -13,7 +13,7 @@ import com.trackstudio.secured.SecuredTaskTriggerBean;
 import com.trackstudio.secured.SecuredUserBean;
 
 
-public class SubscribeFellows extends CommonSubscriber implements TaskTrigger {
+public class SubscribeAfterEdit extends CommonSubscriber implements TaskTrigger {
 
     public SecuredTaskTriggerBean execute(SecuredTaskTriggerBean securedTaskTriggerBean) throws GranException {
         ArrayList<SecuredUserBean> users = AdapterManager.getInstance().getSecuredAclAdapterManager().getUserList(securedTaskTriggerBean.getSecure(), securedTaskTriggerBean.getId());

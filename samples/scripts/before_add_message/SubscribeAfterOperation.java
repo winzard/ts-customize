@@ -12,7 +12,7 @@ import com.trackstudio.external.OperationTrigger;
 import com.trackstudio.secured.SecuredMessageTriggerBean;
 import com.trackstudio.secured.SecuredUserBean;
 
-public class SubscribeFellows extends CommonSubscriber implements OperationTrigger {
+public class SubscribeAfterOperation extends CommonSubscriber implements OperationTrigger {
     public SecuredMessageTriggerBean execute(SecuredMessageTriggerBean message) throws GranException {
         ArrayList<SecuredUserBean> users = AdapterManager.getInstance().getSecuredAclAdapterManager().getUserList(message.getSecure(), message.getTaskId());
         List<String> toRemove = new ArrayList<String>();
