@@ -1,0 +1,20 @@
+<h1>Examples of configurations</h1>
+
+These examples from the catalog <a href="https://github.com/winzard/ts-customize/tree/master/configurations">configurations</a>
+
+<ol>
+  <li>TrackStudio Service Desk
+    <ul>
+      <il><a href="http://www.trackstudio.ru/itil.html">Tutorial</a></il>
+      <il><a href="https://github.com/downloads/winzard/ts-customize/itsm-1.2.zip">Last version in one file</il></il>
+    </ul>
+  </li>
+  <li>TrackStudio Service Desk
+    <ul>
+      <il><a href="http://www.trackstudio.ru/scrum.html">Tutorial</a></il>
+      <il><a href="https://github.com/downloads/winzard/ts-customize/scrum-1.0.zip">Last version in one file</il></il>
+    </ul>
+  </li>
+</ol>
+
+More examples in the <a href="http://www.trackstudio.ru/documentation.html" title="TrackStudio Documentaion">documentation</a> on our <a href="http://www.trackstudio.ru" title="TrackStudio">site</a>.
