@@ -66,6 +66,7 @@ public class GroupPermittedAuthAdapter implements AuthAdapter{
 	        	}
 	        }
 	        if (result) return result;
+	        if (allowed==null && denied==null) return new SimpleAuthAdapter().authorizeImpl(userId, password, result, request);
 	        UserRelatedInfo user = UserRelatedManager.getInstance().find(userId);
 	        if (denied!=null && denied.contains(user.getPrstatusId())) return false;
 	        if (allowed!=null && allowed.contains(user.getPrstatusId())){
